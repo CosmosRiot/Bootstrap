@@ -1,0 +1,50 @@
+/* CSS Reset */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container > h1{
+    color: blue;
+    display: inline-block;
+    outline: solid black;
+
+}
+
+.container {
+    
+}
+
+.container > ul > li {
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    outline: solid red;
+}
+
